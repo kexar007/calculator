@@ -1,0 +1,141 @@
+body{
+    height: 110vh;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+#navbar{
+    background-color: rgb(53, 51, 51);
+    height: 10%;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    color: aliceblue;
+    font: 2em ;
+    
+}
+
+#main{
+    background-color: rgb(167, 243, 152);
+    height: 80%;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#calculator{
+    box-shadow:  5px 2px 5px rgb(71, 69, 69) ;
+    background-color:rgb(0, 0, 0);
+    border-radius: 25px;
+    height: min-content;
+    min-width: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: solid rgb(71, 69, 69) .1em;
+    padding: 10px;
+
+}
+
+#display{
+    height: 15vh;
+    width: 90%;
+    background-color: blue;
+    border-radius: 15px;
+    margin-top: 5px;
+    border: solid rgb(70, 66, 66) 1px;
+    font-style: oblique;
+    color: azure;
+    display:flex;
+    align-items: center;
+    justify-content: end;
+    font-size: 2pc;
+    padding: 5px;
+       
+}
+
+#inputs{
+    display: flex;
+    height: 40vh;
+    padding: 10px;
+    gap: 10px;
+    margin-top: 2ch;
+    
+}
+
+.digits{
+    border-radius: 15px;
+    background-color: rgb(0, 0, 0);
+    height: 90%;
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content:space-around;
+    gap: 5px;
+    padding: 2px;
+    border: solid rgb(54, 46, 46) .1em;
+    
+}
+
+.digit{
+    color: blanchedalmond;
+   
+    border: solid 1px rgb(46, 45, 42);
+    width: 25%;
+    height: 20%;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    align-items:center;
+    justify-content: center;
+    border-radius: 8px;
+    
+}
+
+.operands{
+    border-radius: 5px;
+    background-color: rgb(31, 26, 48);
+    height: 90%;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content:space-around;
+    gap: 5px;
+    padding: 2px;
+
+}
+
+.ops{
+    color: rgb(238, 236, 232);
+   
+    border: solid 1px rgb(56, 55, 53);
+    width: 60%;
+    height: 15%;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    align-items:center;
+    justify-content: center;
+    border-radius: 2px;
+
+}
+.ops:hover ,.digit:hover{
+    background-color: rgb(100, 98, 98);
+}
+
+
+#footer{
+    background-color: slategrey;
+    height: 10%;
+    width: 100vw;
+}
